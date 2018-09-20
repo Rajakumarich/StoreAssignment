@@ -1,0 +1,56 @@
+
+
+create table Employee (empid number primary key, empname varchar(255), empaddress varchar(255),phoneNo varchar(15),empcardno varchar(25),isAffiliate varchar2(1));
+
+create table Item(barcode varchar(255) primary key, itemname varchar(255),itemDesc varchar(2000),price number, ItemType varchar(1));
+ 
+create table Customer (ecardno varchar(25) primary key,cname varchar(255), phoneNo varchar(15), startdate Date);
+
+
+
+insert into Employee values(1,'Venkat','Dubai','123456','99999001','Y');
+
+insert into Employee values(2,'Raji','Dubai','22222222','99999002','N');
+
+insert into Employee values(3,'Chaitra','Dubai','3333333','99999003','N');
+
+
+
+insert into Item values('10001','CintholSoap','Cinthol Lime Fresh Soap',5,'D');
+
+insert into Item values('10002','Coconut','Red tender coconut',10,'G');
+
+insert into Item values('10003','TShirt','T shirt 42',50,'C');
+
+insert into Item values('10004','Trouser','Wills Trouser',100,'C');
+
+insert into Item values('10005','UradDal','Urad Dal red ',15,'G');
+
+insert into Item values('10006','Jaggery','Jaggery Kerala',2,'G');
+
+insert into Item values('10007','Sprite','Sprite 1L',5,'O');
+
+insert into Item values('10008','EarPhones','iphone Earphones',50,'E');
+
+insert into Item values('10009','Charger','Cable Charger',25,'E');
+
+insert into Item values('10010','Perfume','Deo perfume',25,'O');
+
+
+
+insert into customer values('444444444','John','0501234561',SYSDATE-100);
+
+insert into customer values('555555555','Wiz','0501234562',SYSDATE-1000);
+
+insert into customer values('666666666','Bella','0501234563',SYSDATE-50);
+
+insert into customer values('777777777','Lucy','0501234564',SYSDATE-10);
+
+insert into customer values('888888888','Brain','0501234565',SYSDATE-1000);
+
+
+
+
+
+
+
