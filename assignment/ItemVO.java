@@ -7,7 +7,7 @@ package assignment;
 
 /**
  *
- * @author Venkateswarlu
+ * @author Rajakumari Chinthoti
  */
 public class ItemVO {
     private String itemName;
